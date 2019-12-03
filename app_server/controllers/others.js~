@@ -1,0 +1,14 @@
+/* GET results page */
+const resultsCtrl = function(req, res){
+  res.render('results', { title: 'Results',
+pageHeader: {
+title: 'MyApp',
+strapline: 'Nearest bus and train connections'
+} 
+});
+};
+
+module.exports = {
+  resultsCtrl
+};
+

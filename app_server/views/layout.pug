@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/font-awesome.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+<ul class="nav nav-pills">
+  <li role="presentation"><a href="/register">Register</a></li>
+  <li role="presentation"><a href="/">Login</a></li>
+  <li role="presentation"><a href="/search">Search</a></li>
+  <li role="presentation"><a href="/results">Results</a></li>
+</ul>
+    block content
+    script(src='https://code.jquery.com/jquery-3.1.1.slim.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js')
+    script(src='https://javascripts/bootstrap.min.js')
+    script(src="bundle.js")
+    script(src="http://cdn.pubnub.com/pubnub-3.7.1.min.js")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
+    script(src="http://cdn.pubnub.com/pubnub-3.7.1.min.js")
+    script(src="https://maps.googleapis.com/maps/api/js?v=3.exp")

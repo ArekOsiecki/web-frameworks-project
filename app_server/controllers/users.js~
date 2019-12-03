@@ -1,0 +1,27 @@
+/* GET 'Register' page */
+const registerCtrl = function(req, res){
+res.render('register', { title: 'Register',
+pageHeader: {
+title: 'Register',
+strapline: 'Register to find bus and train connections'
+} 
+});
+};
+
+/* GET 'Login' page */
+const loginCtrl = function(req, res){
+res.render('index', { title: 'Login',
+pageHeader: {
+title: 'Login',
+strapline: 'Login to find bus and train connections'
+} 
+});
+};
+
+
+
+module.exports = {
+registerCtrl,
+loginCtrl
+};
+
